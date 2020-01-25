@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+&	init.vim	/^nnoremap & :&&<CR>$/;"	m
+<C-N>	init.vim	/^  nnoremap <silent> <C-N> :nohlsearch<CR>$/;"	m
+<C-U>	init.vim	/^inoremap <C-U> <C-G>u<C-U>$/;"	m
+<C-h>	init.vim	/^map <C-h> <C-w>h$/;"	m
+<C-j>	init.vim	/^map <C-j> <C-w>j$/;"	m
+<C-k>	init.vim	/^map <C-k> <C-w>k$/;"	m
+<C-l>	init.vim	/^map <C-l> <C-w>l$/;"	m
+<C-p>	init.vim	/^nnoremap <silent> <C-p>     :GFiles<CR>$/;"	m
+<F10>	init.vim	/^nnoremap <F10> :set guifont=Liberation\\ Mono\\ 14<CR>$/;"	m
+<F11>	init.vim	/^nnoremap <F11> :set guifont=Liberation\\ Mono\\ 16<CR>$/;"	m
+<F9>	init.vim	/^nnoremap <F9> :set guifont=Liberation\\ Mono\\ 11<CR>$/;"	m
+<leader>a	init.vim	/^nnoremap <silent> <leader>a :A<CR>$/;"	m
+<leader>b	init.vim	/^nnoremap <silent> <leader>b :Buffers<CR>$/;"	m
+<leader>j	init.vim	/^nnoremap <silent> <leader>j :CtrlPBufTag<CR>$/;"	m
+<leader>li	init.vim	/^nmap <leader>li :set invlist$/;"	m
+<leader>p	init.vim	/^nnoremap <silent> <leader>p :Files<CR>$/;"	m
+<leader>sv	init.vim	/^nmap <silent> <leader>sv :so ~\/.vimrc<CR>$/;"	m
+<leader>t	init.vim	/^nnoremap <silent> <leader>t :Tags<CR>$/;"	m
+Y	init.vim	/^nnoremap Y y\$$/;"	m
+g:NERDCommentEmptyLines	init.vim	/^let g:NERDCommentEmptyLines = 1$/;"	v
+g:NERDDefaultAlign	init.vim	/^let g:NERDDefaultAlign = 'left'$/;"	v
+g:NERDSpaceDelims	init.vim	/^let g:NERDSpaceDelims = 1$/;"	v
+g:NERDTrimTrailingWhitespace	init.vim	/^let g:NERDTrimTrailingWhitespace = 1$/;"	v
+g:ale_c_parse_compile_commands	init.vim	/^let g:ale_c_parse_compile_commands = 1$/;"	v
+myvimrchooks	init.vim	/^augroup myvimrchooks$/;"	a
