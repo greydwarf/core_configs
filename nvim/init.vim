@@ -168,7 +168,7 @@ nnoremap <F11> :set guifont=Liberation\ Mono\ 16<CR>
 nnoremap <silent> <C-p>     :GFiles<CR>
 nnoremap <silent> <leader>p :Files<CR>
 nnoremap <silent> <leader>b :Buffers<CR>
-nnoremap <silent> <leader>j :CtrlPBufTag<CR>
+nnoremap <silent> <leader>j :BTags<CR>
 nnoremap <silent> <leader>t :Tags<CR>
 
 " ALE

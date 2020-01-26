@@ -115,5 +115,6 @@ if ! shopt -oq posix; then
 fi
 
 export LESS=-XR
+alias vim="xdotool key shift+F10 r 2; nvim; xdotool key shift+F10 r 1"
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
