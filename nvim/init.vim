@@ -120,7 +120,7 @@ set cinoptions=(0,ks,g0
 nmap <silent> <leader>sv :so ~/.vimrc<CR>
 set hidden
 set nowrap
-set tabstop=8 shiftwidth=3
+set tabstop=8 shiftwidth=4
 set copyindent
 set ignorecase smartcase
 set hlsearch
@@ -156,7 +156,7 @@ set nostartofline
 set number numberwidth=5
 set report=0
 "set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
-set softtabstop=3
+set softtabstop=4
 
 augroup myvimrchooks
     au!
